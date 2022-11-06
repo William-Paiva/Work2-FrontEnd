@@ -1,3 +1,7 @@
+body{
+    background-image: url(../images/fundobranco1.jpg);
+}
+
 /*Header*/
 
 header{ 
@@ -27,12 +31,6 @@ li{
     padding-left: 40px;
 }
 
-
-
-
-
-
-
 /*Formatação da tabela*/
 
 table{
@@ -57,29 +55,21 @@ tr input{
     height: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /*Formatação de Divs*/
 
 .div-format{
     padding: 2px;
-    border-bottom: 2px solid aquamarine;
+    border-bottom: 3px solid aquamarine;
 }
 div{
     display: inline-block;
     margin-left: 10px;
+    margin: 10px auto; 
+    max-width: 1280px;
 }
 
 .div-one{
-    margin-left: 160px;
+    margin-left: 130px;
 }
 
 .div-two{
@@ -90,6 +80,69 @@ div{
     display: block;
     border-bottom: 2px solid aquamarine;
 }
+
+.bandeiras-format{
+    display: inline-flex;
+    width: 100%;
+    margin-left: 27px;
+    height: 300px;
+    max-width: 1280px;
+}
+
+#div-guia{
+    position: fixed;
+    margin-top: 260px;
+    padding: 5px;
+    z-index: 500;
+    background-color:  rgb(99, 17, 17); 
+    opacity: 60%;  
+}
+
+#div-guia a{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 25px;
+}
+
+#s1{
+    background-image: url(../images/BandeiraGA.jpg);
+}
+
+#s2{
+    background-image: url(../images/BandeiraGB.jpg);
+}
+
+#s3{
+    background-image: url(../images/BandeiraGC.jpg);
+}
+
+#s4{
+    background-image: url(../images/BandeiraGD.jpg);
+}
+
+#s5{
+    background-image: url(../images/BandeiraGE.jpg);
+}
+
+#s6{
+    background-image: url(../images/BandeiraGF.jpg);
+}
+
+#s7{
+    background-image: url(../images/BandeiraGG.jpg);
+}
+
+#s8{
+    background-image: url(../images/BandeiraGH.jpg);
+}
+
+
+
+.block{
+    display: block;
+}
+
+
 
 
 

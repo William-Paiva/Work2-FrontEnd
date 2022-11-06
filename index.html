@@ -2,54 +2,66 @@
     <html>
         <head>
             <link rel="icon" type="image;x-icon" href="images/2022_FIFA_World_Cup.svg.png">
-            <title>Tabela da Copa do Mundo - Qtar 2022</title>
+            <title>Tabela da Copa do Mundo - catar 2022</title>
             <link rel="stylesheet" href="css/main.css">
             <link rel="stylesheet" href="css/text-format.css">
 
         </head>
-        
+
         <body>
             <header>
                 <nav>
                     <ul class="text-format-1">
                         <li>
-                            <a href=""><img src="images/2022_FIFA_World_Cup.svg.png" alt="logoFifaQtar" id="logo-copa"></a>
+                            <a href=""><img src="images/2022_FIFA_World_Cup.svg.png" alt="logoFifacatar" id="logo-copa"></a>
                         </li>
                         <li>
-                            <a href="">Grupo A</a>
+                            <a href="#GA">Grupo A</a>
                         </li>
                         <li>
-                            <a href="">Grupo B</a>
+                            <a href="#GB">Grupo B</a>
                         </li>
                         <li>
-                            <a href="">Grupo C</a>
+                            <a href="#GC">Grupo C</a>
                         </li>
                         <li>
-                            <a href="">Grupo D</a>
+                            <a href="#GD">Grupo D</a>
                         </li>
                         <li>
-                            <a href="">Grupo E</a>
+                            <a href="#GE">Grupo E</a>
                         </li>
                         <li>
-                            <a href="">Grupo F</a>
+                            <a href="#GF">Grupo F</a>
                         </li>
                         <li>
-                            <a href="">Grupo G</a>
+                            <a href="#GG">Grupo G</a>
                         </li>
                         <li>
-                            <a href="">Grupo H</a>
+                            <a href="#GH">Grupo H</a>
                         </li>
                     </ul>  
                 </nav>
             </header>
-
-            <div id="div-title">
-                <h1 class="font-change" id="title">Tabela Simulador da Copa do Mundo - Catar 2022</h1>
-            </div>
-
             
+            <div id="div-title">
+                <h1 class="font-change title">Tabela Simulador da Copa do Mundo - Catar 2022</h1>
+            </div>
+            <div id="div-guia" class = "font-change">
+                <a href="#GA">GA</a>
+                <a href="#GB">GB</a>
+                <a href="#GC">GC</a>
+                <a href="#GD">GD</a>
+                <a href="#GE">GE</a>
+                <a href="#GF">GF</a>
+                <a href="#GG">GG</a>
+                <a href="#GH">GH</a>                
+            </div>
+            <div class="font-change block"><h2 class="subtitle" id="GG">Grupo G</h2></div>
+            <div class="font-change block" ><h2>Brasil, Sérvia, Suiça e Camarões.</h2></div>
+            <div class="bandeiras-format" id="s7"></div>
+            <div>
                 <div class="text-format-1 div-one">
-                    <h2>Grupo A</h2>
+                    <h2>Classificação Grupo G</h2>
                     <table> 
                         <thead>
                             <td><img src="images/2022_FIFA_World_Cup.svg.png" alt="icon-catar" class="icon-size"></td>
@@ -64,61 +76,61 @@
                             <td>SG</td>
                             
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td><img src="images/i-qtar.png" alt="Catar"></td>
-                                <td>Catar</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
+                        <tbody id="g7">
+                            <tr id="brasil" data-id="g7">
+                                <td><img src="images/i-brasil.png" alt="Brasil"></td>
+                                <td>Brasil</td>
+                                <td id="brasilpts">0</td>
+                                <td id="brasilpj">0</td>
+                                <td id="brasilvit">0</td>
+                                <td id="brasilemp">0</td>
+                                <td id="brasilder">0</td>
+                                <td id="brasilgm">0</td>
+                                <td id="brasilgc">0</td>
+                                <td id="brasilsg">0</td>
                             </tr>
-                            <tr>
-                                <td><img src="images/i-equador.png" alt="Equador"></td>
-                                <td>Equador</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
+                            <tr id="servia" data-id="g7">
+                                <td><img src="images/i-servia.png" alt="Sérvia"></td>
+                                <td>Sérvia</td>
+                                <td id="serviapts">0</td>
+                                <td id="serviapj">0</td>
+                                <td id="serviavit">0</td>
+                                <td id="serviaemp">0</td>
+                                <td id="serviader">0</td>
+                                <td id="serviagm">0</td>
+                                <td id="serviagc">0</td>
+                                <td id="serviasg">0</td>
                             </tr>
-                            <tr>
-                                <td><img src="images/i-senegal.png" alt="Senegal"></td>
-                                <td>Senegal</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
+                            <tr id="suica" data-id="g7">
+                                <td><img src="images/i-suica.png" alt="Suiça"></td>
+                                <td>Suiça</td>
+                                <td id="suicapts">0</td>
+                                <td id="suicapj">0</td>
+                                <td id="suicavit">0</td>
+                                <td id="suicaemp">0</td>
+                                <td id="suicader">0</td>
+                                <td id="suicagm">0</td>
+                                <td id="suicagc">0</td>
+                                <td id="suicasg">0</td>
                             </tr>
-                            <tr>
-                                <td><img src="images/i-holanda.png" alt="Holanda"></td>
-                                <td>Holanda</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
+                            <tr id="camaroes" data-id="g7">
+                                <td><img src="images/i-camaroes.png" alt="Camarões"></td>
+                                <td>Camarões</td>
+                                <td id="camaroespts">0</td>
+                                <td id="camaroespj">0</td>
+                                <td id="camaroesvit">0</td>
+                                <td id="camaroesemp">0</td>
+                                <td id="camaroesder">0</td>
+                                <td id="camaroesgm">0</td>
+                                <td id="camaroesgc">0</td>
+                                <td id="camaroessg">0</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
     
                 <div class="text-format-1 div-two">
-                    <h2>Partidas do Grupo A</h2>
+                    <h2>Partidas do Grupo G</h2>
 
                     <table>
                         <thead>
@@ -134,79 +146,72 @@
 
                         <tbody>
                             <tr class="tr-format">
-                                <td>20/11 - 13h</td>
-                                <td>CAT</td>
-                                <td><img src="images/i-qtar.png" alt="Catar" class="img-align"></td>
-                                <td><label for="n1"></label><input type="number" id="n1"></td>    
+                                <td>24/11 - 7h</td>
+                                <td>SUI</td>
+                                <td><img src="images/i-suica.png" alt="Suiça" class="img-align"></td>
+                                <td><input type="number" class="score" data-team="team1" data-name="suica" data-match="m37"></td>
                                 <td>X</td>
-                                <td><label for="n2"></label><input type="number" id="n2"></td>
-                                <td><img src="images/i-equador.png" alt="Equador" class="img-align"></td>
-                                <td>EQU</td>
+                                <td><input type="number" class="score" data-team="team2" data-name="camaroes" data-match="m37"></td>
+                                <td><img src="images/i-camaroes.png" alt="Camarões" class="img-align"></td>
+                                <td>CAM</td>
                             </tr>
                             <tr class="tr-format">
-                                <td>20/11 - 13h</td>
-                                <td>SEN</td>
-                                <td><img src="images/i-senegal.png" alt="Senegal" class="img-align"></td>
-                                <td><label for="n1"></label><input type="number" id="n1"></td>
+                                <td>24/11 - 16h</td>
+                                <td>BRA</td>
+                                <td><img src="images/i-brasil.png" alt="Brasil" class="img-align"></td>
+                                <td><input type="number" class="score" data-team="team1" data-name="brasil" data-match="m38"></td>
                                 <td>X</td>
-                                <td><label for="n2"></label><input type="number" id="n2"></td>
-                                <td><img src="images/i-holanda.png" alt="Holanda" class="img-align"></td>
-                                <td>HOL</td>
-                            </tr>
-
-                            <tr class="tr-format">
-                                <td>25/11 - 10h</td>
-                                <td>CAT</td>
-                                <td><img src="images/i-qtar.png" alt="Catar"></td>
-                                <td><label for="n1"></label><input type="number" id="n1"></td>
-                                <td>X</td>
-                                <td><label for="n2"></label><input type="number" id="n2"></td>
-                                <td><img src="images/i-senegal.png" alt="Senegal"></td>
-                                <td>SEN</td>
-                            </tr>
-                            <tr class="tr-format">
-                                <td>25/11 - 13h</td>
-                                <td>EQU</td>
-                                <td><img src="images/i-equador.png" alt="Equador"></td>
-                                <td><label for="n1"></label><input type="number" id="n1"></td>
-                                <td>X</td>
-                                <td><label for="n2"></label><input type="number" id="n2"></td>
-                                <td><img src="images/i-holanda.png" alt="Holanda"></td>
-                                <td>HOL</td>
+                                <td><input type="number" class="score" data-team="team2" data-name="servia" data-match="m38"></td>
+                                <td><img src="images/i-servia.png" alt="Sérvia" class="img-align"></td>
+                                <td>SER</td>
                             </tr>
 
                             <tr class="tr-format">
-                                <td>25/11 - 10h</td>
-                                <td>EQU</td>
-                                <td><img src="images/i-equador.png" alt="Equador"></td>
-                                <td><label for="n1"></label><input type="number" id="n1"></td>
+                                <td>28/11 - 7h</td>
+                                <td>CAM</td>
+                                <td><img src="images/i-camaroes.png" alt="Camarões"></td>
+                                <td><input type="number" class="score" data-team="team1" data-name="camaroes" data-match="m39"></td>
                                 <td>X</td>
-                                <td><label for="n2"></label><input type="number" id="n2"></td>
-                                <td><img src="images/i-senegal.png" alt="Senegal"></td>
-                                <td>SEN</td>
+                                <td><input type="number" class="score" data-team="team2" data-name="servia" data-match="m39"></td>
+                                <td><img src="images/i-servia.png" alt="Sérvia"></td>
+                                <td>SER</td>
                             </tr>
                             <tr class="tr-format">
-                                <td>25/11 - 13h</td>
-                                <td>CAT</td>
-                                <td><img src="images/i-qtar.png" alt="Catar"></td>
-                                <td><label for="n1"></label><input type="number" id="n1"></td>
+                                <td>28/11 - 13h</td>
+                                <td>BRA</td>
+                                <td><img src="images/i-brasil.png" alt="Brasil"></td>
+                                <td><input type="number" class="score" data-team="team1" data-name="brasil" data-match="m40"></td>
                                 <td>X</td>
-                                <td><label for="n2"></label><input type="number" id="n2"></td>
-                                <td><img src="images/i-holanda.png" alt="Holanda"></td>
-                                <td>HOL</td>
+                                <td><input type="number" class="score" data-team="team2" data-name="suica" data-match="m40"></td>
+                                <td><img src="images/i-suica.png" alt="Suiça"></td>
+                                <td>SUI</td>
+                            </tr>
+
+                            <tr class="tr-format">
+                                <td>02/12 - 16h</td>
+                                <td>CAM</td>
+                                <td><img src="images/i-camaroes.png" alt="Camarões"></td>
+                                <td><input type="number" class="score" data-team="team1" data-name="camaroes" data-match="m41"></td>
+                                <td>X</td>
+                                <td><input type="number" class="score" data-team="team2" data-name="brasil" data-match="m41"></td>
+                                <td><img src="images/i-brasil.png" alt="Brasil"></td>
+                                <td>BRA</td>
+                            </tr>
+                            <tr class="tr-format">
+                                <td>02/12 - 16h</td>
+                                <td>SER</td>
+                                <td><img src="images/i-servia.png" alt="Sérvia"></td>
+                                <td><input type="number" class="score" data-team="team1" data-name="servia" data-match="m42"></td>
+                                <td>X</td>
+                                <td><input type="number" class="score" data-team="team2" data-name="suica" data-match="m42"></td>
+                                <td><img src="images/i-suica.png" alt="Suiça"></td>
+                                <td>SUI</td>
                             </tr>
                         </tbody>
-                    </table>
-                    
+                    </table>         
                 </div>   
-           
-            
-
-            
-            
-
-            
-            
+            </div>
         </body>
+        <script src="js/main.js"></script>
 
     </html>
